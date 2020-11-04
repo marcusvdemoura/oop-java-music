@@ -6,6 +6,8 @@ public class Main {
 
         TestRunner testRunner = new TestRunner();
 
+        testRunner.Run();
+
 
 
     }
