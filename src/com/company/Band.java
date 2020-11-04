@@ -21,10 +21,7 @@ public class Band {
 
             this.name=name;
             this.style = style;
-
-
-
-    }
+}
 
 
 
