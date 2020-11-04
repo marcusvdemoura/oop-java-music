@@ -7,8 +7,8 @@ public class Piano extends Sounds{
 
     }
 
-    public String getSound (){
-      return Sounds.sound ("Piano Sound");
+    public String getSound() {
+        return Sounds.sound("Piano Sound");
     }
 
 

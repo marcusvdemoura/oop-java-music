@@ -4,11 +4,15 @@ public class Clarinet extends Sounds{
 
 
     public Clarinet (){
-        Sounds.sound ("Clarinet Sound");
+
     }
 
     public String instrumentName (){
         return "Clarinet";
+    }
+
+    public String getSound() {
+        return Sounds.sound ("Clarinet Sound");
     }
 
 

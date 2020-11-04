@@ -1,24 +1,19 @@
 package com.company;
 
-public class BaseGuitar extends Sounds{
+public class BaseGuitar extends Sounds {
 
-    public BaseGuitar (){
+    public BaseGuitar() {
 
     }
 
-    public String instrumentName (){
+    public String instrumentName() {
 
         return "Base guitar";
     }
 
-    public String getSound (){
+    public String getSound() {
         return Sounds.sound("Base guitar sound");
     }
-
-
-
-
-
 
 
 }

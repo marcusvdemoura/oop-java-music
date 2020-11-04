@@ -1,12 +1,18 @@
 package com.company;
 
-public class MusicalNotes extends Sounds{
+public class MusicalNotes extends Sounds {
 
-    public MusicalNotes (){
-        Sounds.sound ("la la la");
+    public MusicalNotes() {
+
+
     }
 
-    public String instrumentName (){
+    public String instrumentName() {
+
         return "Singer";
+    }
+
+    public String getSound() {
+        return Sounds.sound("la la la la");
     }
 }
