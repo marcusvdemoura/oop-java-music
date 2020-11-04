@@ -76,5 +76,10 @@ public class Musician {
         return "The instrument this musician plays is "+ getInstrumentPlayed();
     }
 
+    public String getSound (){
+        return Sounds.sound("la la la la");
+    }
+
+
 
 }

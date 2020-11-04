@@ -4,9 +4,11 @@ public abstract class Sounds {
 
     static boolean testSound = true;
 
-    public static void sound (String sound){
+    public static String sound (String sound){
         if (testSound){
-            System.out.println(sound);
+           return sound;
+        } else {
+            return "";
         }
     }
 
